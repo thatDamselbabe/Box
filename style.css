@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: aqua;
 }
 .Format{
     display: flex;
@@ -34,4 +34,25 @@ button{
     padding: 5px;
     border: 1px solid white;
     margin: 5px; 
+}
+@media screen and (max-width: 500px) {
+    body {
+      background-color: red;
+    }
+    .purple {
+        background-color: pink;
+    }
+    .Format {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        background-color: pink;
+    } 
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: blueviolet;
+    }
 }
